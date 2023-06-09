@@ -1,0 +1,24 @@
+#game-board {
+    margin: 50px auto;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  #surprise {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    display: none;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
